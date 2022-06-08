@@ -1,5 +1,26 @@
+/* 
+font-family: 'Joan', serif;
+font-family: 'Lora', serif;
+*/
+@font-face {
+    font-family: Joan;
+     src: url("assets/fonts/Joan-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
 body {
-    background-color:  #42e9de;
+    background-color:  #42e98a;
+    min-height: 100vh;
+}
+header {
+    border: 1px solid red;
+}
+main {
+    border: 1px solid red;
+}
+footer {
+    border: 1px solid red;
 }
 h1 {
     color: rgb(105, 34, 78);
