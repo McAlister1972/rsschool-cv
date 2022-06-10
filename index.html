@@ -3,16 +3,120 @@
     <head>
         <title> My CV</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="assete/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Joan&family=Lora&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>My <q>Curriculum Vitae</q></h1>
-        <p id="p01">My name is Aleksandr Maslovski.<br>I'm from Belarus.<br>I'm learning at The Rolling Scopes Shcool!</p>
-        <hr>
-        <p>This is my real Photo, but i'm youger in it and still not wearing glasses ;)</p>
-        <img src="assets/img/i.jpg" alt="My Photo" width="350" height="310">
-        <hr>
-        <p>  This picture will be my Avatar </p>
-        <img src="assets/img/i1.jpg" alt="My Avatar" class="avatar">
+        <div class="header">
+            <div class="container header-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                      <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                      <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container main-container">
+                <section class="section" id="profile">
+                    <div class="section-profile-title">
+                        <h1>Aleksandr Maslovski</h1>
+                        <h3>My <q>Curriculum Vitae</q></h3>
+                        <p>This is my real Photo, but i'm youger in it and still not wearing glasses ;)</p>
+                        <img src="assets/img/i.jpg" alt="My Photo" width="350" height="310">
+                        <p>  This picture will be my Avatar </p>
+                        <img src="assets/img/i1.jpg" alt="My Avatar" class="avatar">
+                    </div>         
+                </section>
+                <section class="section" id="contacts">
+                    <div class="section-contacts-title">
+                        <h2>My Contacts</h2>
+                        <ul>
+                            <li>Minsk Belarus</li>
+                            <li>Email: mcalister1972@gmail.com</li>
+                            <li>Discord: McAlister(mcalister1972)#5615</li>
+                            <li>GitHub: McAlister1972</li>
+                            <li>Telegram: @Alex McAlister</li>
+                        </ul>                       
+                    </div>
+                </section>
+                <section class="section" id="summary">
+                    <div class="section-summary-title">
+                        <h2>Summary</h2>
+                        <p>My name is Aleksandr Maslovski. I'm from Belarus. I'm 50 years old. From the time of study, I became very friendly with computers, 
+                            as it turned out for the rest of my life. At the same time, the first attempts to write code were made. 
+                            Until recently, the program "Engine Traction Calculation" worked in my native university, in the writing of which I, 
+                            as a student, took part (Turbo Pascal v.5.5, v.6.0 from Borland, later completed in Delphi). 
+                            In recent years (from 08.2005 to 09.2021) I worked at my own service center as a software and hardware repair engineer for all kinds of electronics in Gorki city, 
+                            Mogilev region (complex household appliances, computers, laptops, mobile phones, tablets, cameras, ...). 
+                            The enterprise was liquidated on 09.21. I decided to retrain and moved to Minsk, I was hired as an electrical engineer 
+                            in one of the structural divisions of the National Academy of Sciences of the Republic of Belarus. 
+                            I do self-training. I perfectly understand and realize that a lot has changed since the "first attempt at writing". 
+                            But there is, in my opinion, sufficient knowledge and experience in working with a PC and various operating systems, 
+                            a desire to learn and master something new (maybe not the first time)), diligence, sense of purpose, responsibility, time. 
+                            I like to learn programming. I want to become an Front End Development softwere engineer.</p>
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <div class="section-skills-title">
+                        <h2>Skills</h2>
+                        <p>I'm still learning.</p>
+                    </div>
+                </section>
+                <section class="section" id="code">
+                    <div class="section-code-title">
+                        <h2>Code</h2>
+                        <p>My code's example from Codewars Kata 8 kyu Multiply</p>
+                        <p><pre>         function multiply(a, b){
+                        return a * b;
+                            }
+                        </pre>
+                    </div>
+                </section>
+                <section class="section" id="corses">
+                    <div class="section-courser-title">
+                        <h2>Courses</h2>
+                        <p>I'm learning at The Rolling Scopes School now.</p>
+                    </div>
+                </section>
+                <section class="section" id="projects">
+                    <div class="section-projects-title">
+                        <h2>Projects</h2>
+                        <p>I have not projects yet.</p>
+                    </div>
+                </section>
+                <section class="section" id="education">
+                    <div class="section-education-title">
+                        <h2>Education</h2>
+                        <p>I studied at the Belorussian State Agricultural Academy and graduated from it in 1994.<br>
+                            I have higher education. My specialty is Mechanical Engineer </p>
+                    </div>
+                </section>
+                <section class="section" id="english">
+                    <div class="section-english-title">
+                        <h2>Language</h2>
+                        <p>Russian - native. English - A1.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container footer-container">
+                © 2022
+                <a href="https://github.com/McAlister1972" class="github-link">McAlister</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss">
+                <img src="assets/img/rs_school_js.jpg" alt="RSSchool" style="width: 120px; height:40px">
+            </a>
+        </div>
     </body>
 </html>
 
