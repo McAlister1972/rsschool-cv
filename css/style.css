@@ -6,29 +6,104 @@ font-family: 'Lora', serif;
     font-family: Joan;
      src: url("assets/fonts/Joan-Regular.ttf");
    }
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+  }
 * {
     box-sizing: border-box;
   }
 body {
-    background-color:  #42e98a;
+    background-color: aquamarine;
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
     min-height: 100vh;
+    margin: 5; 
+    padding: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-header {
+.header {
     border: 1px solid red;
 }
-main {
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.main {
     border: 1px solid red;
 }
-footer {
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
     border: 1px solid red;
 }
+.github-link {
+    color: black;
+}
+.rss {
+    padding: 0 1300px;
+    width: 20px;
+    height: 50px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+   }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+ .link:hover {
+    color: #5d7260;
+  }
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px
+  }
+  .nav-link:hover {
+    transition: .3s;
+  }
+  .section {
+      width: 50%;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
 h1 {
     color: rgb(105, 34, 78);
     text-align: center;
-}
-#p01 {
-    color: rgb(253, 253, 5);
-    font-size: larger;
 }
 p {
     font-family: 'Times New Roman', Times, serif ;
