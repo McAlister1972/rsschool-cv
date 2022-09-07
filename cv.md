@@ -4,6 +4,7 @@
 + +375 29 673 39 42 А1  - Viber, WhatsApp, Telegram (24/7)
 + +375 29 741 24 80 МТС - Viber, Telegram (24/7)
 + Email: mcalister1972@gmail.com 
+
 - Skype account: lxmcalister (после смены рода занятий бываю крайне редко)  
 
 **********  
